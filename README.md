@@ -1,5 +1,7 @@
 # Intervue Style Frontend UI
 
+**LIVE PREVIEW:** https://dhruvjohri.github.io/Intervue.io-Assignment/
+
 A clean, modern, and responsive UI inspired by Intervue.  
 Built using **HTML + CSS (no frameworks)** and optimized for **desktop and mobile screens**.
 
