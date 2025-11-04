@@ -862,3 +862,48 @@
     gap: 24px;
   }
 }
+
+
+
+
+/* FIX MOBILE DROPDOWN OVERLAY */
+.mobile-menu {
+  position: absolute;
+  top: 64px;         /* height of your navbar */
+  left: 0;
+  width: 100%;
+  background: #fff;
+  padding: 18px 32px;
+  border-top: 1px solid #eee;
+
+  display: none;     /* stays hidden until toggled */
+  flex-direction: column;
+  gap: 14px;
+  z-index: 9999;     /* ensure it appears above all content */
+}
+
+/* Style mobile menu links */
+.mobile-menu a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  font-weight: 500;
+  display: block;
+}
+
+/* Mobile login & signup buttons */
+.mobile-menu .btn {
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 2px;
+  padding: 10px 0;
+  background: transparent;
+  color: #000;
+  text-align: center;
+}
+
+.mobile-menu .signup-btn {
+  background: #000;
+  color: #fff;
+}
+
