@@ -904,3 +904,15 @@
   background: #000;
   color: #fff;
 }
+
+@media (max-width: 900px) {
+  .navbar {
+    position: relative;
+  }
+
+  .mobile-menu {
+    width: 100%;
+  }
+}
+
+
